@@ -4,7 +4,7 @@
   "features": {},
   "extensions": [],
   "postCreateCommand": "rm -rf ~/.vscode/extensions && sudo rm -f /usr/bin/code",
-  "remoteUser": "codespace",
+  "remoteUser": "vscode",
   "customizations": {
     "vscode": {
       "settings": {
