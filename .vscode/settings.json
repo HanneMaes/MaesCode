@@ -1,0 +1,5 @@
+{
+  "extensions.autoUpdate": false,
+  "extensions.ignoreRecommendations": true,
+  "workbench.settings.blockExtensions": true
+}

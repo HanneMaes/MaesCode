@@ -1,0 +1,16 @@
+{
+  "name": "MaesCode",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {},
+    "extensions.autoUpdate": false,
+    "extensions.ignoreRecommendations": true,
+    "workbench.settings.editor.autoSuggestions": false,
+    "workbench.settings.blockExtensions": true,
+    "security.workspace.trust.enabled": false,
+    "editor.suggest.showWords": true,
+    "editor.suggest.showSnippets": true
+  },
+  "extensions": [],
+  "postCreateCommand": "rm -rf ~/.vscode/extensions && sudo rm -f /usr/bin/code",
+  "remoteUser": "codespace"
+}
